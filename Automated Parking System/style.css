@@ -1,0 +1,385 @@
+/*FONTS*/
+body {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  background-color: #54504C;
+}
+header {
+  background: #BD968E;
+  background-size: cover;
+  padding: 100px;
+  min-height: 80px;
+  
+}
+#logo {
+  position:absolute;
+  float: left;
+  padding-top: -10px;
+  
+}
+main {
+  min-height: 500px;
+  background-color: #54504C;
+}
+section {
+  padding: 10px;
+  box-sizing: border-box;
+}
+aside {}
+/*NAV*/
+nav {
+  background-color: #99403c;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: #2C2416 5px solid;
+  text-align: center;
+}
+
+nav ul {
+  padding: 100;
+    margin: 20;
+  list-style: none;
+  position: relative;
+  }
+  
+nav ul li {
+  display:inline-block;
+  background-color: #99403c;
+  }
+
+nav a {
+  display:block;
+  padding:0 20px; 
+  color:#FFF;
+  font-size:20px;
+  line-height: 60px;
+  text-decoration:none;
+}
+
+nav a:hover { 
+  background-color: #000000;
+
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+  display: none;
+  position: absolute; 
+  top: 60px; /* the height of the main nav */
+}
+  
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+  display:inherit;
+}
+  
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+  width:170px;
+  float:none;
+  display:list-item;
+  position: relative;
+}
+
+/* Second, Third and more Tiers */
+nav ul ul ul li {
+  position: relative;
+  top:-60px; 
+  left:170px;
+}
+
+  
+/* Change this in order to change the Dropdown symbol */
+li > a:after { content:  ' +'; }
+li > a:only-child:after { content: ''; }
+/*TYPOGRAPHY*/
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+h2{
+  font-family: 'Cabin', sans-serif;
+  font-size: 40px;
+  text-align: left;
+}
+#sitename {
+  font-family: 'Times New Roman';
+  padding-top: 30px;
+  color: #2C2416;
+  font-size: 50px;
+  margin-left: 280px;
+  text-transform: capitalize;
+  float: left;
+}
+nav, section, footer, body
+{
+  font-family: 'Cabin', sans-serif;
+}
+div {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+/*IMAGES*/
+.img-circle {
+    border-radius: 50%;
+    display: block;
+    box-sizing: border-box;
+    background-color: #DDD;
+    border: 5px solid #cfd8dc;
+    float: left;
+    margin: 0 10px 10px 10px;
+}
+img{
+  max-width: 100%;
+}
+i{
+  padding: 5px;
+}
+
+/*FLOAT*/
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+/*BACKGROUND*/
+body {
+  margin:0 auto;
+}
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,300);
+.backgrounda {
+  height: 200px;
+  padding: 100px;
+  background: url(https://farm3.staticflickr.com/2814/11594633484_fec26e3603_b.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #1c120c;
+  background-attachment:fixed;
+  position:relative;
+  overflow:hidden;
+ }
+.backgroundb {
+  height: 720px;
+  background: url(https://farm4.staticflickr.com/3715/11594635564_b21009cae6_b.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #1c120c;
+  background-attachment:fixed;
+  position:relative;
+  overflow:hidden;
+ }
+.backgroundc {
+  height: 1000px;
+  background: url(https://farm6.staticflickr.com/5524/11594323675_034ef063b6_b.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #1c120c;
+  background-attachment:fixed;
+  position:relative;
+  overflow:hidden;
+ }
+h6 {
+  margin-top:110px;
+  text-align:center;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight:300;
+  color:white;
+  
+}
+/*CLEAR*/
+.clearleft {
+  clear: left;
+}
+.clearright {
+  clear: right;
+}
+.clearfix {
+  clear: both;
+}
+/**TEXT-ALIGN**/
+.textleft {
+  text-align: left;
+}
+.textright {
+  text-align: right;
+}
+.textcenter {
+  text-align: center;
+}
+/* GRID LAYOUT */
+.span1 {
+  width: 6.25%;
+  margin: 1.0416666667%;
+}
+.span2 {
+  width: 14.5833333333%;
+  margin: 1.0416666667%;
+}
+.span3 {
+  width: 22.9166666667%;
+  margin: 1.0416666667%;
+}
+.span4 {
+  width: 31.2500000000%;
+  margin: 1.0416666667%;
+}
+.span5 {
+  width: 39.5833333333%;
+  margin: 1.0416666667%;
+}
+.span6 {
+  width: 47.9166666667%;
+  margin: 1.0416666667%;
+}
+.span7 {
+  width: 56.2500000000%;
+  margin: 1.0416666667%;
+}
+.span8 {
+  width: 64.5833333333%;
+  margin: 1.0416666667%;
+}
+.span9 {
+  width: 72.9166666667%;
+  margin: 1.0416666667%;
+}
+.span10 {
+  width: 81.2500000000%;
+  margin: 1.0416666667%;
+}
+.span11 {
+  width: 89.5833333333%;
+  margin: 1.0416666667%;
+}
+.span12 {
+  width: 97.9166666667%;
+  margin: 1.0416666667%;
+}
+
+* { box-sizing:border-box; }
+
+/* basic stylings ------------------------------------------ */
+body 				 { background:url(https://scotch.io/wp-content/uploads/2014/07/61.jpg); }
+.container 		{ 
+  font-family:'Roboto';
+  width:600px; 
+  margin:30px auto 0; 
+  display:block; 
+  background:#FFF;
+  padding:10px 50px 50px;
+}
+h2 		 { 
+  text-align:center; 
+  margin-bottom:50px; 
+}
+h2 small { 
+  font-weight:normal; 
+  color:#888; 
+  display:block; 
+}
+.footer 	{ text-align:center; }
+.footer a  { color:#53B2C8; }
+
+/* form starting stylings ------------------------------- */
+.group 			  { 
+  position:relative; 
+  margin-bottom:45px; 
+}
+input 				{
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:300px;
+  border:none;
+  border-bottom:1px solid #757575;
+}
+input:focus 		{ outline:none; }
+
+/* LABEL ======================================= */
+label 				 {
+  color:#999; 
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label, input:valid ~ label 		{
+  top:-20px;
+  font-size:14px;
+  color:#5264AE;
+}
+
+/* BOTTOM BARS ================================= */
+.bar 	{ position:relative; display:block; width:300px; }
+.bar:before, .bar:after 	{
+  content:'';
+  height:2px; 
+  width:0;
+  bottom:1px; 
+  position:absolute;
+  background:#5264AE; 
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%; 
+}
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:50%;
+}
+
+/* HIGHLIGHTER ================================== */
+.highlight {
+  position:absolute;
+  height:60%; 
+  width:100px; 
+  top:25%; 
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMATIONS ================ */
+@-webkit-keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
